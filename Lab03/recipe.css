@@ -1,0 +1,28 @@
+body{
+	background-color: #F2CEDF;
+	font-family: Arial, Verdana, a sans-serif;
+	margin: 4%;
+	background-image: url(https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtNTA0LWJnLTA0YV8yLmpwZw.jpg?s=IIHRFDb_ZcDrcrr0JmwSug8YGh6NSGjY481N8m8SBVA);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1{
+	color: #990000;
+	text-align: center;
+	font-size: 45px;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+h2{
+	color: #BB0000;
+	text-align: center;
+	font-size: 32px;
+}
+h3{
+	font-size: 25px;
+	color: #DD0000;
+}
+ul, ol, p{
+	font-size: 22px;
+}
