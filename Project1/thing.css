@@ -1,0 +1,92 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.navbar-left,
+.navbar-right {
+   display: inline-block;
+   
+}
+.navbar {
+   position: relative;
+   height: 60px;
+   font-weight: bold;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.navbar-right {
+   position: absolute;
+   top: 15px;
+   right: 0;
+}
+
+.navbar {
+   background: #F2B705;
+}
+nav a{
+	padding:0px 20px;
+	font-size: 25px;
+}
+
+.navbar-brand,
+.navbar .nav-link {
+   text-decoration: none;
+}
+.navbar-brand{
+	font-size: 40px;
+	font-family: "Brush Script MT", cursive;
+}
+nav a:link { color: black; }
+nav a:visited { color: black; }
+nav a:hover { color: grey;}
+
+.background-image {
+  background-image: url("background1.jpg");
+  background-size: 100% auto;
+  height: 700px;
+  text-align: center;
+  padding: 10px;
+}
+.button a{
+    border-radius: 60px;
+    padding: 1em; 
+	color: black;
+	background-color: #F2B705;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	margin-right: 20px;
+}
+.button a:link { color : black; }
+.button a:visited { color : black; }
+.button a:hover { color : #965251; background-color: white; }
+h1,h2,h4, p{
+	margin: 20px;
+}
+h1{
+	font-size: 80px;
+	font-family:'Lucida Handwriting', Cursive;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+h2{
+	font-size: 50px;
+}
+h4{
+	font-size: 30px;
+	}
+p{
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+footer { font-size: 100%;
+		text-align: center;
+		padding: 10px;
+		background-color: #F2B705;
+		color: black;
+}
